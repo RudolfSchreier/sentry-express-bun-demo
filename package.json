@@ -1,0 +1,17 @@
+{
+  "name": "sentry-express-bun-demo",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --preload ./instrument main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@sentry/bun": "^10.15.0",
+    "express": "^5.1.0"
+  }
+}
