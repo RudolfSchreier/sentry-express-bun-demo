@@ -12,5 +12,6 @@ Sentry.init({
   sendDefaultPii: true,
   tracesSampleRate: 0.0,
   enableLogs: true,
+  debug: true,
 });
 console.log("Preload done");
