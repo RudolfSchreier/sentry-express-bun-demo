@@ -2,7 +2,7 @@
 
 ## Start
 
-> bun run dev
+> env SENTRY_DSN=... bun run dev
 
 ## Expected output
 
